@@ -12,7 +12,7 @@ export default function StudentDisplay({ student }) {
             </div>
             <div className="student-info">
                 <span className="title">Class Number</span>
-                <span className="value">{student.classNumber}</span>
+                <span className="value">{student.roomNumber }</span>
             </div>
         </div>
     )

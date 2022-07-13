@@ -17,7 +17,6 @@ export default function AddStudentForm(props) {
         const student = { firstName, lastName, gradeLevel, roomNumber };
         StudentService.addStudent(student)
             .then((response) => {
-                console.log("waiting")
                 props.updateHandler();
             });
     };

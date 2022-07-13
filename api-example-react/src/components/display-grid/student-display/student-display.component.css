@@ -1,14 +1,17 @@
-.container{
+.container {
     border: 1px black solid;
     display: flex;
     justify-content: center;
+    width: 60%;
 }
+
 .student-info {
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
-.title{
-    font-weight:bold;
+
+.title {
+    font-weight: bold;
     font-size: 20px;
 }
