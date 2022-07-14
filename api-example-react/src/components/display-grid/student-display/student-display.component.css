@@ -2,7 +2,7 @@
     border: 1px black solid;
     display: flex;
     justify-content: center;
-    width: 60%;
+    margin: 10px 0; 
 }
 
 .student-info {

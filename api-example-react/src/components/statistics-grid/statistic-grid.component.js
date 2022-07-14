@@ -1,13 +1,15 @@
 export default function StatisticsGrid(props) {
     const students = props.students;
     return (
-        <div>
-            <span>Total Number Of Students Enrolled:</span>
-            <span>{students && students.length}</span>
-
-            <div>
-                <span>Grade Level Breakdown</span>
-                <span>{getAllClassCounts(students)}</span>
+        <div className="stats-container">
+            <h2>Enrollment Statistics</h2>
+            <div className="totals">
+                <span className="title">Total Enrollement</span>
+                <span className="value">{students && students.length}</span>
+            </div>
+            <div className="breakdown">
+                <span className="title">Grade Level Breakdown</span>
+                <span className="grade-stats">{getAllClassCounts(students)}</span>
             </div>
         </div>
     )
